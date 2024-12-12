@@ -32,6 +32,17 @@ nav ul li a {
     text-decoration: none; /* Remove sublinhado dos links */
 }
 
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+    margin-top: 60px; /* Ajuste para evitar sobreposição do header */
+}
+
+/* Estilo do título principal */
+main h1 {
+    color: #333;
+    text-align: center;
+}
 
 /* Estilo do formulário */
 form {
