@@ -8,51 +8,30 @@ body {
 
 /* Estilo do cabeçalho */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    top: 0;
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    padding: 10px 0; /* Espaçamento interno (padding) no topo e na parte inferior */
+    text-align: center; /* Alinhamento do texto ao centro */
 }
 
 /* Estilo da navegação */
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove preenchimento padrão */
 }
 
 /* Estilo dos itens da navegação */
 nav ul li {
-    margin: 0 10px;
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 10px; /* Espaçamento entre os itens */
 }
 
 /* Estilo dos links da navegação */
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
 }
 
-/* Estilo dos links da navegação ao passar o mouse */
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Estilo do conteúdo principal */
-main {
-    padding: 20px;
-    margin-top: 60px; /* Ajuste para evitar sobreposição do header */
-}
-
-/* Estilo do título principal */
-main h1 {
-    color: #333;
-    text-align: center;
-}
 
 /* Estilo do formulário */
 form {
