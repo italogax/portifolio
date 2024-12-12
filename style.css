@@ -1,0 +1,130 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+/* Estilo da navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo dos itens da navegação */
+nav ul li {
+    margin: 0 10px;
+}
+
+/* Estilo dos links da navegação */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo dos links da navegação ao passar o mouse */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+    margin-top: 60px; /* Ajuste para evitar sobreposição do header */
+}
+
+/* Estilo do título principal */
+main h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Estilo dos rótulos do formulário */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Estilo dos campos de entrada do formulário */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilo do botão do formulário */
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo do botão do formulário ao passar o mouse */
+form button:hover {
+    background-color: #555;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo do botão centralizado */
+.center-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo do botão */
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilo do botão ao passar o mouse */
+.btn:hover {
+    background-color: #555;
+}
