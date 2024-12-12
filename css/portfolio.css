@@ -12,6 +12,9 @@ header {
     color: #fff; /* Cor do texto do cabeçalho */
     padding: 10px 0; /* Espaçamento interno (padding) no topo e na parte inferior */
     text-align: center; /* Alinhamento do texto ao centro */
+    width: 100%; /* Largura total do cabeçalho */
+    position: fixed; /* Fixa o cabeçalho no topo da página */
+    top: 0; /* Posiciona o cabeçalho no topo da janela */
 }
 
 /* Estilo da navegação */
